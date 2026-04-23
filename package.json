@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/ai-guardrails run build",
-    "typecheck": "bun --cwd framework/libraries/ai-guardrails run typecheck",
-    "lint": "bun --cwd framework/libraries/ai-guardrails run lint",
-    "test": "bun --cwd framework/libraries/ai-guardrails run test",
-    "test:unit": "bun --cwd framework/libraries/ai-guardrails run test:unit",
+    "build": "bun run --cwd framework/libraries/ai-guardrails build",
+    "typecheck": "bun run --cwd framework/libraries/ai-guardrails typecheck",
+    "lint": "bun run --cwd framework/libraries/ai-guardrails lint",
+    "test": "bun run --cwd framework/libraries/ai-guardrails test",
+    "test:unit": "bun run --cwd framework/libraries/ai-guardrails test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }

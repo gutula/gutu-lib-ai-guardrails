@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `ai-guardrails` |
 | Import Name | `@platform/ai-guardrails` |
+| Canonical Namespace Target | `@gutu/ai-guardrails` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/ai-guardrails` |
+| Canonical Namespace Target | `@gutu/ai-guardrails` |
+| Legacy Compatibility IDs | `@platform/ai-guardrails` |
 | Direct Dependencies | `@platform/ai`, `@platform/schema` |
 | Peer Dependencies | None |
 | React Runtime | No |
 | Workspace Requirement | Compatible Gutu workspace required |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/ai-guardrails` as the legacy compatibility package id while the migration to `@gutu/ai-guardrails` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 

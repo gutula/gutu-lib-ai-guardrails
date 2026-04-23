@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-ai-guardrails",
   "packageId": "ai-guardrails",
   "displayName": "AI Guardrails",
+  "packageCount": 1,
   "group": "AI Foundation",
   "maturity": "Hardened",
   "description": "Prompt sanitization, tool risk checks, PII redaction, and output moderation.",

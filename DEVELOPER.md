@@ -35,6 +35,7 @@ Provides reusable guardrail helpers for validation, policy checks, and model-out
 | Package ID | `ai-guardrails` |
 | Display Name | AI Guardrails |
 | Import Name | `@platform/ai-guardrails` |
+| Canonical Namespace Target | `@gutu/ai-guardrails` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides reusable guardrail helpers for validation, policy checks, and model-out
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/ai-guardrails` |
 
 ### Dependency interpretation
 
